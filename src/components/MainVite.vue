@@ -10,8 +10,8 @@
                     <div class="col33">
                         <div class="photo product">
                             <div class="photo-header">
-                                <img class="main-image" src="./img/1b.webp" alt="">
-                                <img class="second-image" src="./img/1.webp" alt="">
+                                <img class="main-image" src=".././assets/img/1b.webp" alt="">
+                                <img class="second-image" src=".././assets/img/1.webp" alt="">
                                 <div class="container-info">
                                     <span class="discount discount-red">-50%</span>
                                     <span class="eco eco-green">sostenibilità</span>
@@ -32,8 +32,8 @@
                     <div class="col33">
                         <div class="photo product">
                             <div class="photo-header">
-                                <img class="main-image" src="./img/2b.webp" alt="">
-                                <img class="second-image" src="./img/2.webp" alt="">
+                                <img class="main-image" src=".././assets/img/2b.webp" alt="">
+                                <img class="second-image" src=".././assets/img/2.webp" alt="">
                                 <div class="container-info">
                                     <span class="discount discount-red">-50%</span>
                                     <!-- <span class="eco eco-green">sostenibilità</span> -->
@@ -54,8 +54,8 @@
                     <div class="col33">
                         <div class="photo product">
                             <div class="photo-header">
-                                <img class="main-image" src="./img/3b.webp" alt="">
-                                <img class="second-image" src="./img/3.webp" alt="">
+                                <img class="main-image" src=".././assets/img/3b.webp" alt="">
+                                <img class="second-image" src=".././assets/img/3.webp" alt="">
                                 <div class="container-info">
                                     <span class="discount discount-red">-50%</span>
                                     <!-- <span class="eco eco-green">sostenibilità</span> -->
@@ -76,8 +76,8 @@
                     <div class="col33">
                         <div class="photo product">
                             <div class="photo-header">
-                                <img class="main-image" src="./img/4b.webp" alt="">
-                                <img class="second-image" src="./img/4.webp" alt="">
+                                <img class="main-image" src=".././assets/img/4b.webp" alt="">
+                                <img class="second-image" src=".././assets/img/4.webp" alt="">
                                 <div class="container-info">
                                     <span class="discount discount-red">-50%</span>
                                     <span class="eco eco-green">sostenibilità</span>
@@ -98,8 +98,8 @@
                     <div class="col33">
                         <div class="photo product">
                             <div class="photo-header">
-                                <img class="main-image" src="./img/5b.webp" alt="">
-                                <img class="second-image" src="./img/5.webp" alt="">
+                                <img class="main-image" src=".././assets/img/5b.webp" alt="">
+                                <img class="second-image" src=".././assets/img/5.webp" alt="">
                                 <div class="container-info">
                                     <!-- <span class="discount discount-red">-50%</span>
                                     <span class="eco eco-green">sostenibilità</span> -->
@@ -120,8 +120,8 @@
                     <div class="col33">
                         <div class="photo product">
                             <div class="photo-header">
-                                <img class="main-image" src="./img/6b.webp" alt="">
-                                <img class="second-image" src="./img/6.webp" alt="">
+                                <img class="main-image" src=".././assets/img/6b.webp" alt="">
+                                <img class="second-image" src=".././assets/img/6.webp" alt="">
                                 <div class="container-info">
                                     <!-- <span class="discount discount-red">-50%</span> -->
                                     <span class="eco eco-green">sostenibilità</span>
