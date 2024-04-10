@@ -1,0 +1,19 @@
+footer{
+    background-color: black;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.row-footer{
+    justify-content: space-between;
+}
+.col50>ul{
+    gap: 6px;
+    font-size: 10px;
+    display: flex;
+}
+.title-footer{
+    margin-bottom: 5px;
+    font-size: 15px;
+    font:bold;
+}

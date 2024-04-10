@@ -1,0 +1,17 @@
+header{
+    background-color: rgb(255, 98, 0);
+    color: white;
+}
+.row-header{
+    justify-content: space-between;
+    align-items: center;
+}
+.row .logo-container{
+    display: flex;
+    width: 90px;
+}
+.row>ul{
+    font-size: 10px;
+    display: flex;
+    gap: 5px;
+}

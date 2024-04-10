@@ -1,0 +1,74 @@
+.eco, .discount{
+    color: white;
+    font-size: 10px;
+    padding: 2px 4px;
+}
+
+.container-info{
+    position: absolute;
+    left: 10px;
+    bottom: 20px;
+}
+
+.discount-red{
+    background-color: red;
+}
+
+.eco-green{
+    background-color: green;
+}
+
+.interest{
+    text-align: center;
+    padding: 10px 10px;
+    background-color: white;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.photo-header{
+    padding: 0 10px;
+    position: relative;
+    
+}
+
+.photo-header:hover .second-image{
+    display: inline-block;
+}
+
+.photo-header:hover .main-image{
+    display:none;
+}
+
+.brand, .old-price, .new-price{
+    font-size: 10px;
+}
+
+.brand, .old-price{
+    color: gray;
+}
+
+.new-price{
+    color: red;
+}
+
+.old-price{
+    text-decoration: line-through;
+}
+
+.description{
+    padding: 0 10px;
+}
+
+.photo.product{
+    margin-bottom: 20px;
+}
+
+.second-image{
+    display: none;
+}
+
+.eco-green-left0{
+    left: 10px;
+}
