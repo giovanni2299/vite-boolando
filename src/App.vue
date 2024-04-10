@@ -1,8 +1,15 @@
-<script setup>
+<script>
 import HeaderVite from './components/HeaderVite.vue'
 import MainVite from './components/MainVite.vue'
 import FooterVite from './components/FooterVite.vue'
 
+export default{
+  components:{
+    HeaderVite,
+    MainVite,
+    FooterVite
+  }
+}
 
 </script>
 
