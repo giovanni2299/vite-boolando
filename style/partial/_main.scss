@@ -46,7 +46,7 @@
 }
 
 .brand, .old-price, .new-price{
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .brand, .old-price{
@@ -58,7 +58,13 @@
 }
 
 .old-price{
+    margin-left: 5px;
     text-decoration: line-through;
+}
+
+.normal-price{
+    text-decoration: none;
+    font-size: 12px;
 }
 
 .description{
