@@ -120,6 +120,7 @@ export default {
         <section>
             <div class="container">
                 <div class="row">
+                    <CardComponed  v-for="(item, i) in products " :item="item" :key="item.id" />
                     <!-- <div class="col33">
                         <div class="photo product">
                             <div class="photo-header">
