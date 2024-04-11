@@ -112,11 +112,7 @@ export default {
             ]
         }
     },
-    methods:{
-        getDiscount(){
-            
-        }
-    }
+   
 };
 </script>
 
