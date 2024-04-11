@@ -32,7 +32,7 @@ export default{
                                 <h6>{{item.name}}</h6>
                                 <p v-for="(discount, i) in item.badges" :key="i">
                                     <span v-if="discount.value === '-50%'" class="new-price">{{ (item.price * 0.50).toFixed(2)  }}&euro;</span>
-                                    <span v-else-if="discount.value === '-30%'" class="new-price">{{ (item.price * 0.50).toFixed(2)  }}&euro;</span>
+                                    <span v-else-if="discount.value === '-30%'" class="new-price">{{ (item.price * 0.30).toFixed(2)  }}&euro;</span>
                                     <span v-else class="old-price">{{item.price.toFixed(2) }}&euro;</span>
                                 </p>
                             </div>
