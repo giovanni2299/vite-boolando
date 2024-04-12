@@ -1,5 +1,6 @@
 <script>
 import CardComponed from './CardComponed.vue';
+import axios from 'axios'
 import {store} from '../store'
 
 export default {
@@ -17,7 +18,7 @@ export default {
     mounted(){
         axios.get('http://localhost:3000/products').then((response) =>{
             const newResponse = response.data
-            this.db.products = newResponse
+            this.products = newResponse
         })
     }
    
