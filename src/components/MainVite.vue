@@ -18,8 +18,12 @@ export default {
     },
     mounted(){
         axios.get('http://localhost:3000/products').then((response) =>{
-            const result = response.data
-            this.store.data = result 
+            for(let i = 0; i < response.data.length; i++){
+                const result = response.data[i]
+                this.products.push(result)
+            }
+            // const result = response.data
+            // this.store.data = result 
         })
 
         console.log(this.products)
