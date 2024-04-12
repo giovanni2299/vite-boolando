@@ -121,9 +121,9 @@ export default {
         <section>
             <div class="container">
                 <div class="row">
-                    <CardComponed  v-for="(item, i) in products " :item="item" :key="item.id" />
-                    <!-- <div class="col33">
-                        <div class="photo product">
+                    <div class="col33"  v-for="(item, i) in products " :key="item.id">
+                        <CardComponed  :item="item"  />
+                        <!-- <div class="photo product">
                             <div class="photo-header">
                                 <img class="main-image" src=".././assets/img/1b.webp" alt="">
                                 <img class="second-image" src=".././assets/img/1.webp" alt="">
@@ -141,8 +141,8 @@ export default {
                                     <span class="old-price">29,99&euro;</span>
                                 </p>
                             </div>
-                        </div>
-                    </div> -->
+                        </div> -->
+                    </div>
 
                     <!-- <div class="col33">
                         <div class="photo product">

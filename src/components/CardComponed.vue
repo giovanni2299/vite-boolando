@@ -10,7 +10,7 @@ export default{
 </script>
 
 <template>
-    <div class="col33">
+
                         <div class="photo product">
                             <div class="photo-header">
                                 <img class="main-image" :src="`/img/${item.backImage}`" alt="">
@@ -44,7 +44,7 @@ export default{
                                 </p>
                             </div>
                         </div>
-                    </div>
+
 
 </template>
 <style lang="scss" scoped>
