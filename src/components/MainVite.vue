@@ -39,7 +39,7 @@ export default {
             <div class="container">
                 <div class="row">
                     <div class="col33"  v-for="(item, i) in products " :key="item.id">
-                        <CardComponed  :item="item"  />
+                        <CardComponed  :item="item"/>
                         <!-- <div class="photo product">
                             <div class="photo-header">
                                 <img class="main-image" src=".././assets/img/1b.webp" alt="">
