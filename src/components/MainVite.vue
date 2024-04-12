@@ -1,8 +1,10 @@
 <script>
 import CardComponed from './CardComponed.vue';
+import store from '../store'
 export default {
     components:{
-        CardComponed
+        CardComponed,
+        store
     },
     data() {
         return {

@@ -1,5 +1,9 @@
 <script>
+import store from '../store'
 export default{
+    components:{
+        store
+    },
     props:{
         item:{
             type: Object
