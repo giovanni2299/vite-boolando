@@ -14,7 +14,7 @@
 
                 <div class="logo-container">
                     <a href="#">
-                        <img src=".././assets/img/boolean-logo.png" alt="">
+                        <img src=".././public/img/boolean-logo.png" alt="">
                     </a>
                 </div>
                 

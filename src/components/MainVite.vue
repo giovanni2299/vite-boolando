@@ -12,7 +12,7 @@ export default {
     data() {
         return {
             products: store.products,
-            store
+            
             
         }
     },
@@ -24,6 +24,7 @@ export default {
             }
             // const result = response.data
             // this.store.data = result 
+            // console.log(response)
         })
 
         console.log(this.products)
