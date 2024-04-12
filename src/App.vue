@@ -4,6 +4,7 @@ import MainVite from './components/MainVite.vue'
 import FooterVite from './components/FooterVite.vue'
 import {store} from './store'
 
+
 export default{
   components:{
     HeaderVite,

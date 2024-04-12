@@ -6,20 +6,23 @@ import {store} from '../store'
 export default {
     components:{
         CardComponed,
-        store,
+        
         
     },
     data() {
         return {
             products: store.products,
             store
+            
         }
     },
     mounted(){
         axios.get('http://localhost:3000/products').then((response) =>{
-            const newResponse = response.data
-            this.products = newResponse
+            const result = response.data
+            this.store.data = result 
         })
+
+        console.log(this.products)
     }
    
 };
