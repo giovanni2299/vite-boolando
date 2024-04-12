@@ -1,6 +1,21 @@
 import {reactive} from 'vue'
-import data from '/db.json'
+import {products} from '/db.json'
+import axios from 'axios'
+
+export default{
+    data(){
+        return{
+    
+            products:[]
+        }
+    }
+
+}
 
 export const store = reactive({
-    products:data.products
+    products
+        
+    
+   
 })
+
