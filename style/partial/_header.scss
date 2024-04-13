@@ -7,11 +7,12 @@ header{
     align-items: center;
 }
 .row .logo-container{
+    align-items: center;
     display: flex;
-    width: 90px;
+    width: 120px;
 }
 .row>ul{
-    font-size: 10px;
+    font-size: 16px;
     display: flex;
     gap: 5px;
 }
