@@ -27,8 +27,14 @@
     top: 10px;
 }
 
-.interest:hover{
-    background-color: red;
+.hearts{
+    font-size: 20px;
+}
+
+.hearts:hover{
+    font-size: 20px;
+    cursor: pointer;
+    color: red;
 }
 
 .photo-header{

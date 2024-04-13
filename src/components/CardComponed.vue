@@ -29,7 +29,9 @@ export default{
                 </span>
                 <!-- <span class="eco eco-green">{{badge.value}}</span> -->
             </div>
-            <span class="interest">&hearts;</span>
+            <span class="interest">
+                <span class="hearts">&hearts;</span>
+            </span>
         </div>
         <div class="description">
             <p class="brand">{{item.brand}}</p>
