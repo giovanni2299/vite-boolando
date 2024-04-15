@@ -1,19 +1,41 @@
 <script>
 import {store} from '../store'
+import ModalApp from './ModalApp.vue'
 export default{
+    data(){
+        return{
+            responeAtClick: false
+        }
+    },
     components:{
-        store
+        store,
+        ModalApp,
     },
     props:{
         item:{
             type: Object
         }
+    },
+    methods:{
+        addWish(item){
+            console.log('hai cliccato')
+            item.isInFavorites = !item.isInFavorites
+            console.log(item.isInFavorites)
+        },
+        openModal(){
+            this.responeAtClick = true
+        }
+
     }
 }
 
 </script>
 
 <template>
+    <ModalApp 
+    @listenClick="responeAtClick = false"
+    :doClick="responeAtClick"
+    :item="item"/>
 
     <div class="photo product">
         <div class="photo-header">
@@ -30,12 +52,12 @@ export default{
                 <!-- <span class="eco eco-green">{{badge.value}}</span> -->
             </div>
             <span class="interest">
-                <span class="hearts">&hearts;</span>
+                <span @click="addWish(item)" :class="item.isInFavorites === true ? 'red' : ''" class="hearts">&hearts;</span>
             </span>
         </div>
         <div class="description">
             <p class="brand">{{item.brand}}</p>
-            <h6>{{item.name}}</h6>
+            <h6 class="brand_name" @click="openModal()">{{item.name}}</h6>
             <p v-for="(discount, i) in item.badges" :key="i">
                 <div v-if="discount.value === '-50%' && discount.type === 'discount'">
                     <span  class="new-price">{{ (item.price - (item.price * 0.50)).toFixed(2)  }}&euro;</span>

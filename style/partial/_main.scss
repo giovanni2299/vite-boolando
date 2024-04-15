@@ -33,18 +33,25 @@
 
 .hearts{
     font-size: 20px;
+    cursor: pointer;
 }
 
-.hearts:hover{
-    font-size: 20px;
-    cursor: pointer;
+// .hearts:hover{
+//     color: red;
+// }
+
+.red{
     color: red;
 }
 
 .photo-header{
     padding: 0 10px;
     position: relative;
+    // z-index: -2;
     
+}
+.brand_name{
+    cursor: pointer;
 }
 
 .photo-header:hover .second-image{
